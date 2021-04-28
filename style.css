@@ -1,0 +1,191 @@
+
+nav a{ color:#ffffff; }
+
+nav li{ margin:5px; }
+
+nav{
+z-index:50;
+}
+canvas {
+         position:absolute;
+         top:0;
+         left:0;
+         max-width:100%;
+         max-height:1000px;
+      }
+      button{
+        z-index:50;
+      }
+.mt{
+    margin-left:auto;
+}
+.ats{ background-color: #301B1B; }
+.td{ color:#ffffff;
+}
+.br{ padding-top:10px;
+}
+#navbarTogglereDemo03:hover{
+  border-radius: 3px;
+  border-style: double;
+    color:black;
+}
+.but:hover{border-radius: 3px;
+border-style: double;
+  color:white;}
+a:hover{
+  color:#bbbbbb;
+}
+.title-cont{
+
+width:100%;
+height:700px;
+background-color: white;
+}
+
+.hero-text{
+
+  margin-top:10% ;
+  margin-bottom:12%;
+  text-align: center;
+}
+
+
+.inp{
+
+  text-align:center;
+z-index:50;
+}
+.inp button{
+  margin-left:30px;
+}
+.inp button a{
+  color:black;
+}
+.inp button a:hover{
+  color:white;
+}
+.classes{
+  display:flex;
+  height:90%;
+  width:100%;
+}
+.cls{
+height:100%;
+width:33%;
+flex=2;
+}
+.about{
+  padding:8%,15%;
+  text-align:center;
+background-color:black;
+color: white;
+height:50%;
+margin-bottom:0;
+}
+.about h1{
+  margin: 50px;
+}
+.ven{
+  height:700px;
+  width:80%
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    max-height:100vh;
+    overflow: hidden;
+}
+
+.carousel-item{
+    max-height:100vh;
+    min-width: 100%;
+}
+.class-img{
+height:35%;
+width:35%;
+}
+/*classes section*/
+#classes{
+  padding:8% 15%;
+background-color: #1b1717;
+text-align:center;
+color: white;
+}
+#classes h3{
+  padding:15px;
+}
+.class-img{
+margin:15px;
+border-radius:10%;
+}
+#classes p{
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.imgs{
+  margin-left:40%;
+  /*margin-top:20px;*/
+  margin:bottom:20px;
+  border-radius: 100%;
+}
+.im{
+  width:7%;
+  height:7%;
+}
+#skills{
+  padding:8% 15%;
+position:relative;
+
+}
+
+
+.stl{
+  text-align: justify;
+}
+#skills h1{
+  text-align: center;
+  border-bottom: solid;
+}
+#skills ul{
+  list-style-type: none;
+  margin:20px;
+
+}
+
+footer{
+  background-color: black;
+  margin-bottom:0px;
+}
+footer img{
+margin-top:20px;
+margin-bottom:20px;
+width:7%;
+height:7%;
+margin-left: 20px;
+}
+@media screen and (max-width:800px){
+  .about{
+    height:0px;
+    width:0px;
+  }
+
+}
+@media screen and (max-width:1000px){
+
+  footer img{
+    width: 15%;
+    height:15%;
+
+  }
+  .im{
+    width:15%;
+    height:15%;
+
+  }
+  .imgs{
+    margin-left:30%;
+  }
+.hero-text{
+    margin-bottom:25%;
+  }
+}
